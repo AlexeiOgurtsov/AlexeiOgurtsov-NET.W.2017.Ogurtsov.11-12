@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Events
 {
-    public class Timer
+    public class TimerWatch
     {
         /// <summary>
         /// Event to be started after time is out
@@ -19,7 +19,7 @@ namespace Events
         /// Initializes an instance of the timer with the passed parameter.
         /// </summary>
         /// <param name="time">Starting time for Timer (in sec)</param>
-        public Timer(int time)
+        public TimerWatch(int time)
         {
             this.time = time;
         }
